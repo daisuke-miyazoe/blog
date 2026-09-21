@@ -47,7 +47,7 @@ const fontsConfig = Object.entries(theme.fonts.font_family)
 
 // https://astro.build/config
 export default defineConfig({
-  site: 'https://my-blog.github.io',
+  site: 'https://daisuke-miyazoe.github.io/',
   base: 'blog',
   trailingSlash: config.site.trailing_slash ? "always" : "never",
   image: { service: sharpImageService() },
